@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "my-hello-world";
+    public static final String MY_SEND_RCV_QUEUE = "replybacktome";
 
     /*
     When we send a message to JMS, Spring will convert it to a JMS text message, and it will take the object and convert it to a JSON payload.
